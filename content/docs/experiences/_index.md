@@ -1,11 +1,13 @@
 ---
 weight: 1
-bookFlatSection: true
-title: "Example Site"
+bookFlatSection: flase
+bookToC: flase
+title: "Curriculum"
+
 ---
 
-# Introduction
-
+# Olá esse é tralalalala
+<!-- 
 ## Ferre hinnitibus erat accipitrem dixi Troiae tollens
 
 Lorem markdownum, a quoque nutu est *quodcumque mandasset* veluti. Passim
@@ -68,4 +70,4 @@ errante lustrat non.
 Tamen inde, vos videt e flammis Scythica parantem rupisque pectora umbras. Haec
 ficta canistris repercusso simul ego aris Dixit! Esse Fama trepidare hunc
 crescendo vigor ululasse vertice *exspatiantur* celer tepidique petita aversata
-oculis iussa est me ferro.
+oculis iussa est me ferro. -->

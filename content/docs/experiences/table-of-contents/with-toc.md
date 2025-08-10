@@ -1,6 +1,6 @@
 ---
 title: With ToC
-weight: 1
+weight: 2
 ---
 # Caput vino delphine in tamen vias
 

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blog on Dayan Freitas</title>
+    <title>Projetos on Dayan Freitas</title>
     <link>http://localhost:1313/posts/</link>
-    <description>Recent content in Blog on Dayan Freitas</description>
+    <description>Recent content in Projetos on Dayan Freitas</description>
     <generator>Hugo</generator>
     <language>pt-br</language>
     <lastBuildDate>Sat, 09 Aug 2025 20:47:04 -0300</lastBuildDate>

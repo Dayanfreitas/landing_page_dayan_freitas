@@ -4,6 +4,6 @@ title = 'Dayan Freitas'
 theme = "hugo-book"
 
 [params]
-    BookTheme = 'light'
+    BookTheme = 'dark'
     BookToC = true
     

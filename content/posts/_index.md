@@ -1,7 +1,8 @@
 ---
 menu:
   after:
-    name: blog
+    name: Projetos
     weight: 5
-title: Blog
+
+title: Projetos
 ---
