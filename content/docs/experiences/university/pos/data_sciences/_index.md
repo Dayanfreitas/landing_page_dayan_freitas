@@ -1,3 +1,6 @@
 ---
-title: "Ciências de dados"
+title: "🧪 Ciências de dados"
+weight: 1
 ---
+
+# {{< param "title" >}}
