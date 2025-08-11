@@ -16,6 +16,7 @@ Após assumir a posição de  Tech Lead, fiquei responsável por organizar/docum
 
 {{< badge style="info" value="Ruby" >}}
 {{< badge style="info" value="Rails" >}}
+{{< badge style="info" value="RSpec" >}}
 {{< badge style="info" value="Sidekiq " >}}
 {{< badge style="info" value="Aws" >}}
 {{< badge style="info" value="Kubernets" >}}
