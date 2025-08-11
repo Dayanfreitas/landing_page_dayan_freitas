@@ -12,6 +12,6 @@ Um pouco da minha formacao academia
 * Bacharelado em Engenharia de Software
 * UNIASSELVI - Pós Graducao em Ciência de dados
 
-{{< param "valor" >}}
+<!-- {{< param "valor" >}}
 
-Valor da variável: {{< show-var value="Esse é o valor aqui do params" >}}
+Valor da variável: {{< show-var value="Esse é o valor aqui do params" >}} -->
