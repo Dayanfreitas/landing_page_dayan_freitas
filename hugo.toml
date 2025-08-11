@@ -1,9 +1,69 @@
-baseURL = 'https://example.org/'
-languageCode = 'pt-br'
+baseURL = 'http://localhost:1313/'
+languageCode = 'pt-BR'
 title = 'Dayan Freitas'
-theme = "hugo-book"
+theme = 'hugo-book'
 
-[params]
-    BookTheme = 'dark'
-    BookToC = true
+# Multi-lingual mode config
+# There are different options to translate files
+# See https://gohugo.io/content-management/multilingual/#translation-by-filename
+# And https://gohugo.io/content-management/multilingual/#translation-by-content-directory
+#[languages]
+#  [languages.en]
+#    languageName = "English"
+#    contentDir = "content.en"
+#    weight = 1
+#  [languages.zh]
+#    languageName = "Chinese"
+#    contentDir = "content.zh"
+#    weight = 2
+#  [languages.he]
+#    languageName = "Hebrew"
+#    contentDir = "content.he"
+#    languageDirection = "rtl"
+#    weight = 3
+
+[menu]
+  [[menu.home]]
+    name = "Curriculum "
+    url = "/docs/experiences/"
+    weight = 1
+  
+  # Itens filhos
+  #[[menu.home]]
+  #  parent = "curriculum"
+  #  name = "Experiência 1"
+  #  url = "/docs/experiences/exp1/"
+  #  weight = 2
+
     
+  #[[menu.home]]
+  #  name = "Showcases"
+  #  url = "/showcases/"
+  #  weight = 2
+  # [[menu.home]]
+  #  name = "Github"
+  #  url = "https://github.com/alex-shpak/hugo-book/"
+  #  weight = 3
+
+  #[[menu.after]]
+  #  name = "Github"
+  #  url = "https://github.com/alex-shpak/hugo-book"
+  #  weight = 10
+  #[[menu.after]]
+  #  name = "Hugo Themes"
+  #  url = "https://themes.gohugo.io/themes/hugo-book/"
+  #  weight = 20
+
+
+# Parâmetros do tema
+[params]
+  # Configurações de aparência
+  BookTheme = 'dark'
+  BookToC = true
+  
+  # Informações do site
+  description = "Portfolio e Blog pessoal de Dayan Freitas"
+  author = "Dayan Freitas"
+
+  Linkedin = "dayan-freitas"
+  Github = "Dayanfreitas"

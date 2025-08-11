@@ -6,7 +6,15 @@ title: "Curriculum"
 
 ---
 
-# Olá esse é tralalalala
+# Introdução
+
+<!-- Desenvolvedor | Back-end | Ruby | Rails -->
+
+{{< badge style="info" title="Desenvolvedor" value="Desenvolvedor" >}} 
+{{< badge style="info" title="Back-end" value="Back-end " >}} 
+{{< badge style="info" title="Ruby" value="Ruby" >}}
+{{< badge style="info" title="Rails" value="Rails" >}}
+
 <!-- 
 ## Ferre hinnitibus erat accipitrem dixi Troiae tollens
 
