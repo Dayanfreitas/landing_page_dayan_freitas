@@ -4,6 +4,8 @@ title: "Twygo"
 ---
 
 # Twygo
+Cargo: Estagiário → Desenvolvedor de Software Júnior
+**Fev/2021 – Jul/2024 · Joinville, Santa Catarina**
 
 Inicialmente, fui contratado como Desenvolvedor Júnior. Em seguida, devido ao meu desempenho como programador, fui designado para a função de Tech Lead. No mesmo período com desenvolver atuei como monitor do programa de estágio, com a responsabilidade de auxiliar os estagiários nas atividades cotidianas. Durante esse período, obtivemos um aumento na cobertura de testes na base de código, superando 80%.  
 
@@ -12,7 +14,7 @@ Após assumir a posição de  Tech Lead, fiquei responsável por organizar/docum
 
 {{< badge style="success" value="Tech Lead" >}}
 
-**Tecnologias**
+**Ferramentas e metodologias utilizadas:**
 
 {{< badge style="info" value="Ruby" >}}
 {{< badge style="info" value="Rails" >}}
@@ -23,3 +25,5 @@ Após assumir a posição de  Tech Lead, fiquei responsável por organizar/docum
 {{< badge style="info" value="Artia" >}}
 {{< badge style="info" value="Elasticsearch" >}}
 {{< badge style="info" value="Grafana" >}}
+{{< badge style="info" value="Kanban" >}}
+{{< badge style="info" value="Scrum" >}}
