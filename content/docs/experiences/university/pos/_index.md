@@ -6,6 +6,7 @@ title: "Pós"
 
 # Pós
 
-Conhecimento continuo
+Conhecimento contínuo
 
-* Pós
+
+* [Ciências de dados](data_sciences)

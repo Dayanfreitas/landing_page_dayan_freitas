@@ -1,0 +1,32 @@
+{{- $projects := .Page.Params.projects -}}
+{{- if and $projects (gt (len $projects) 0) -}}
+<div class="projects-list">
+  {{- range $projects }}
+    {{- $title := (or .title (or .name (print .))) -}}
+    {{- $href := (or .href .link) -}}
+    <article class="book-card">
+      <div class="markdown-inner">
+        {{- if $href -}}
+          {{- if hasPrefix $href "http" -}}
+            <a href="{{ $href | safeURL }}"><strong>{{ $title }}</strong></a>
+          {{- else -}}
+            <a href="{{ $href | relURL }}"><strong>{{ $title }}</strong></a>
+          {{- end -}}
+        {{- else -}}
+          <strong>{{ $title }}</strong>
+        {{- end -}}
+        {{- with .description }}
+          <p>{{ . }}</p>
+        {{- end }}
+        {{- with .tags }}
+          <p><small>{{ delimit . ", " }}</small></p>
+        {{- end }}
+      </div>
+    </article>
+  {{- end }}
+</div>
+{{- else -}}
+<p><em>Nenhum projeto cadastrado.</em></p>
+{{- end -}}
+
+
