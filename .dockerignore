@@ -1,0 +1,20 @@
+# Node/OS junk
+.DS_Store
+*.log
+node_modules
+
+# Hugo build output (rebuilt in container)
+public
+resources
+
+# Git
+.git
+.gitignore
+
+# Editor/IDE
+.vscode
+.idea
+*.swp
+*.swo
+
+
