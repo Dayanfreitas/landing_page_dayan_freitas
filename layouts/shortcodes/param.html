@@ -1,0 +1,4 @@
+{{- $paramName := .Get 0 | default (.Get "name") -}}
+{{- with $.Page.Params -}}
+  {{- index . $paramName -}}
+{{- end -}}

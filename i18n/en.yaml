@@ -1,6 +1,9 @@
 - id: Search
   translation: Search
 
+- id: Projects
+  translation: Projects
+
 - id: Edit this page
   translation: Edit this page
 
