@@ -6,7 +6,7 @@ bookHeadingAnchor: false
 <div class="book-hero">
 
 # Dayan Freitas
-
+{{< avatar >}}
 </div>
 
 Aqui você encontrará informações sobre minha trajetória profissional, experiências e projetos.

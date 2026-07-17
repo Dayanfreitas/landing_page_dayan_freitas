@@ -1,0 +1,20 @@
+<div class="avatar-container">
+  <img class="avatar-img" src="{{ .Get "src" | default "/pdfs/EU.jpeg" }}" alt="{{ .Get "alt" | default "Dayan Freitas" }}" />
+</div>
+
+<style>
+.avatar-container {
+  /* display: flex; */
+  /* justify-content: center; */
+  margin: 1.5rem 0;  
+}
+
+.avatar-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid var(--gray-300);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+</style>
